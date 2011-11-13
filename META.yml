@@ -1,0 +1,25 @@
+---
+abstract: 'generate a userinterface for'
+author:
+  - 'Benjamin Tietz <btietz@cpan.org>'
+build_requires:
+  Test::Deep: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: User-Config-UI-HTMLFormHandler
+no_index:
+  directory:
+    - t
+    - inc
+    - t
+requires:
+  HTML::FormHandler: 0
+  Moose: 2.02
+  User::Config: 0.02
+version: 0.01_01

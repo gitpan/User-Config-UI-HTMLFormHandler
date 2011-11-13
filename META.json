@@ -1,0 +1,44 @@
+{
+   "abstract" : "generate a userinterface for",
+   "author" : [
+      "Benjamin Tietz <btietz@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "User-Config-UI-HTMLFormHandler",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc",
+         "t"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::Deep" : 0
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : 0
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "HTML::FormHandler" : 0,
+            "Moose" : "2.02",
+            "User::Config" : "0.02"
+         }
+      }
+   },
+   "release_status" : "testing",
+   "version" : "0.01_01"
+}

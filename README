@@ -1,0 +1,31 @@
+User-Config-UI-HTMLFormHandler version 0.01_01
+==============================================
+
+To provide a User-Interface for web-applications, this extension uses
+HTML::FormHandler for an Interface to User::Config.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+User::Config
+HTML::FormHandler
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2011 by Benjamin Tietz
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.10.1 or,
+at your option, any later version of Perl 5 you may have available.
+
+

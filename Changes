@@ -1,0 +1,7 @@
+Revision history for Perl extension User::Config::UI::HTMLFormHandler.
+
+0.01_01  Sun Nov 13 17:28:34 2011
+	- splitted from User::Config
+	- original version; created by h2xs 1.23 with options
+		-Xn User::Config::UI::HTMLFormHandler -v 0.01_01
+
